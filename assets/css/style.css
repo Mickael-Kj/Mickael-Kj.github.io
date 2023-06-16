@@ -31,6 +31,8 @@ p{
   top: 0;
   z-index: 1;
   width: 100vw;
+  transition: top 0.3s;
+  transition-delay: 0.2s;
 }
 .dropdown{
   display: none;
@@ -268,9 +270,12 @@ p{
 
   .red{
     position: fixed;
-    height: 50px;
+    height: 200px;
     grid-area: re;
   }
+  .red.hidden {
+  top: -200px;
+}
 
   .navbar {
     font-weight: 600;
