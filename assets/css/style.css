@@ -588,6 +588,7 @@ ul, li{
 
 /******************* CONTACT ******************************/
 #contact{
+  padding-bottom: 200px;
   margin-bottom: 100px;
   display: flex;
   justify-content: center;
@@ -596,6 +597,13 @@ ul, li{
 }
 .h2_contact{
   margin: 40px;
+}
+.p_contact{
+  padding-top: 50px;
+  font-size: 30px;
+}
+.p_contact:hover{
+  color: #d5cab5;
 }
 form {
   text-align: justify;
