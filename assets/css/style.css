@@ -361,6 +361,9 @@ a {
   .parcours{
     background-color: none;
   }
+  .link_parcours > em:hover{
+      color: white;
+  }
 .text_card{
   padding-top: 40px;
   padding-left: 10px;
