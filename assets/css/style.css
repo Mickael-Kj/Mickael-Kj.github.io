@@ -362,7 +362,7 @@ a {
     background-color: none;
   }
   .link_parcours > em:hover{
-      color: white;
+      color: #d5cab5;
   }
 .text_card{
   padding-top: 40px;
@@ -566,6 +566,9 @@ ul, li{
 	align-content: center;
   margin-bottom: 100px;
 }
+.apropos_mail:hover{
+  color: #d5cab5;
+}
 .hr_apropos {
   height: 400px;
 }
@@ -589,6 +592,7 @@ ul, li{
 /******************* CONTACT ******************************/
 #contact{
   padding-bottom: 200px;
+  padding-top: 100px;
   margin-bottom: 100px;
   display: flex;
   justify-content: center;
