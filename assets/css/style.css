@@ -483,7 +483,7 @@ a {
 .comp_div{
   background-color: rgba(213, 202, 181, 0.8);
   width: 220px;
-  height: 500px;
+  height: 550px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
