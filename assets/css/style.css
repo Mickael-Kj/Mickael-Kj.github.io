@@ -654,3 +654,22 @@ cursor: pointer;
 #modal{
   display: none;
 }
+
+/******************* MODAL PHILOSOPHIE ******************************/
+
+#phi:hover{
+  color: #d5cab5;
+  cursor: pointer;
+  }
+  #modal{
+    display: none;
+  }
+  .col_P{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+  }
+  .modalP-content{
+    display: flex;
+    flex-direction: row;
+  }
