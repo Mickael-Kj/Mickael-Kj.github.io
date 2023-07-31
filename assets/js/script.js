@@ -17,7 +17,12 @@ var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
 skate.onclick = function() {
+  if (modal.style.display == "none"){
   modal.style.display = "block";
+  }
+  else {
+	modal.style.display = "none";
+  }
 }
 
 // When the user clicks on <span> (x), close the modal
@@ -31,6 +36,7 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
 
 // MODAL SKATE VIDEO
 
@@ -46,8 +52,14 @@ var spanP = document.getElementsByClassName("closeP")[0];
 
 // When the user clicks the button, open the modal 
 phi.onclick = function() {
-  modalP.style.display = "block";
-}
+if (modalP.style.display == "none"){
+	modalP.style.display = "block";
+	}
+	else {
+	  modalP.style.display = "none";
+	}
+  }
+  
 
 // When the user clicks on <span> (x), close the modal
 spanP.onclick = function() {
