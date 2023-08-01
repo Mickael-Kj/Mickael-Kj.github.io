@@ -362,7 +362,8 @@ a {
     background-color: none;
   }
   .link_parcours > em:hover{
-      color: #d5cab5;
+    color: rgba(117, 117, 117, 0.4);
+
   }
 .text_card{
   padding-top: 40px;
@@ -370,14 +371,14 @@ a {
   padding-right: 10px;
   }
 .card {
-  border-radius: 20px;
+  border-radius: 5px;
   top: 20%;
   width: 350px;
   height: 500px;
   perspective: 500px;
 }
 .content {
-  border-radius: 20px;
+  border-radius: 5px;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -393,11 +394,12 @@ a {
 
 .front,
 .back {
-  border-radius: 20px;
+  border-radius: 5px;
   position: fixed;
   height: 100%;
   width: 100%;
-  background: rgba(213, 202, 181, 0.8);
+  /* background: rgba(213, 202, 181, 0.8); */
+  background: rgba(213, 202, 181, 0.4);
   text-align: center;
   backface-visibility: hidden;
 }
@@ -428,12 +430,12 @@ a {
     color: white;
   } */
 .back {
-  border-radius: 20px;
-  background: rgba(213, 202, 181, 0.4);
+  border-radius: 5px;
+  background: rgba(213, 202, 181, 0.8);
   transform: rotateY( 180deg );
 }
 #all_card, .card {
-  border-radius: 20px;
+  border-radius: 5px;
   margin: 50px;
 	display: flex;
 	flex-direction: row-reverse;
@@ -481,10 +483,10 @@ a {
   align-content: stretch;
 }
 .comp_div{
-  background-color: rgba(213, 202, 181, 0.8);
+  background-color: rgba(213, 202, 181, 0.4);
   width: 220px;
   height: 550px;
-  border-radius: 20px;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -543,6 +545,14 @@ ul, li{
 }
 .img_cv{
   margin-top: 50px;
+}
+.link_site{
+  font-size: 20px;
+  font-weight: bolder;
+  color: #757575;
+}
+.link_site:hover{
+  color: rgba(117, 117, 117, 0.4);
 }
 
 
