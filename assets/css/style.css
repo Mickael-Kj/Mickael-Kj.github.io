@@ -472,6 +472,9 @@ a {
 .h3_comp{
   padding-bottom: 50px;
 }
+.h3_collaboration{
+padding-bottom: 20px;
+}
 .contenu_comp {
   font-weight: 600;
   display: flex;
@@ -503,8 +506,15 @@ a {
   align-content: stretch;
 }
 .span_comp{
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 }
+.span_comp_langages{
+  padding-bottom: 30px;
+}
+.span_comp_outils{
+  padding-bottom: 20px;
+}
+
 @media all and (max-width: 700px) {
   .contenu_comp{
       flex-direction: column;
