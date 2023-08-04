@@ -431,7 +431,7 @@ a {
   } */
 .back {
   border-radius: 5px;
-  background: rgba(213, 202, 181, 0.8);
+  background: rgba(213, 202, 181, 0.4);
   transform: rotateY( 180deg );
 }
 #all_card, .card {
