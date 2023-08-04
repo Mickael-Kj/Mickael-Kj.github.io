@@ -398,37 +398,11 @@ a {
   position: fixed;
   height: 100%;
   width: 100%;
-  /* background: rgba(213, 202, 181, 0.8); */
   background: rgba(213, 202, 181, 0.4);
   text-align: center;
   backface-visibility: hidden;
 }
-/* NEW CARD TEST */
-/* .new_card{
-  border-radius: 20px;
-  height: 100%;
-  width: 350px;
-  background: rgba(213, 202, 181, 0.8);
-  text-align: center;
-  margin: 50px;
-	display: flex;
-	flex-direction: row-reverse;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: stretch;
-}
-.text_card_new{
-  padding-left: 10px;
-  padding-right: 10px;
-  }
-  .date_bilan_new{
-    font-size: 25px;
-    padding-bottom: 30px;
-  }
-  #link_realisation > em {
-    color: white;
-  } */
+
 .back {
   border-radius: 5px;
   background: rgba(213, 202, 181, 0.4);
