@@ -1,12 +1,12 @@
-let red = document.querySelector(".conteneur > .red");
+let navHomepage = document.querySelector(".conteneur > .nav_homepage");
 let lastScrollValue = 0;
 
 document.addEventListener('scroll',() => {
 		let top  = document.documentElement.scrollTop;
     if(lastScrollValue < top) {
-    	red.classList.add("hidden");
+    	navHomepage.classList.add("hidden");
     } else {
-    	red.classList.remove("hidden");
+    	navHomepage.classList.remove("hidden");
     }
     lastScrollValue = top;
 });
