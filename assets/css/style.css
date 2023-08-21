@@ -560,7 +560,7 @@ ul, li{
 	justify-content: space-around;
 	align-items: center;
 	align-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .apropos_mail:hover{
   color: #d5cab5;
@@ -571,6 +571,9 @@ ul, li{
 @media all and (max-width: 700px) {
   .hr_apropos{
     display: none;
+  }
+  .h2_apropos{
+    margin-top: 100px;
   }
   }
 
