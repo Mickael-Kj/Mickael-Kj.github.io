@@ -404,7 +404,9 @@ a {
 .h2_parcours {
   text-align: center;
 }
-
+#parcours hr{
+  border-bottom: none;
+}
 .date_bilan {
   font-size: 25px;
 }
@@ -529,6 +531,9 @@ a {
   .text_card_bilan{
     padding-bottom: 70px;
   }
+  .h2_parcours{
+    margin-bottom: 50px;
+  }
 }
 
 /********* FIN PARCOURS***************/
@@ -609,7 +614,7 @@ a {
 
 
 /******************* REALISATIONS ******************************/
-.h2_réalisations {
+.h2_realisations {
   text-align: center;
   margin-top: 200px;
 }
@@ -651,6 +656,17 @@ li {
 .link_site:hover {
   color: rgba(117, 117, 117, 0.4);
 }
+@media all and (max-width: 700px) {
+  .card_mobile_realisations{
+    height: 800px;
+  }
+  .realisations_card{
+    display: none;
+  }
+  .h2_realisations{
+    margin-bottom: 50px;
+  }
+}
 
 
 /******************* A PROPOS ******************************/
@@ -689,7 +705,7 @@ li {
   }
 
   .h2_apropos {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 }
 
