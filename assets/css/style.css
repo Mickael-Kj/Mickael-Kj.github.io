@@ -375,18 +375,13 @@ a {
       "az"
       "wh";
   }
-
-  .navbar {
-    display: none;
-  }
-
   .name_homepage {
-    margin: 0;
+    margin: 25%;
   }
 
   .job_homepage {
     margin-top: 100px;
-    margin-left: 120px;
+    margin-left: 10%;
   }
 
   .clock {
@@ -559,19 +554,17 @@ a {
   flex-wrap: nowrap;
   justify-content: space-evenly;
   align-items: baseline;
-  /* = titre en ligne même base */
   align-content: stretch;
 }
 
 .comp_div {
   background-color: rgba(213, 202, 181, 0.4);
   width: 220px;
-  height: 550px;
+  height: 570px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  /* justify-content: space-evenly; */
   align-items: center;
   align-content: center;
 }
