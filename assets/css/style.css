@@ -392,6 +392,9 @@ a {
   .vase {
     height: 300px;
   }
+  .dropdown{
+    top: 130px;
+  }
 }
 
 /************** FIN GRID_ACCUEIL ***************/
