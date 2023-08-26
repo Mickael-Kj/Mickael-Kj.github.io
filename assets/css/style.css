@@ -376,7 +376,8 @@ a {
       "wh";
   }
   .name_homepage {
-    margin: 25%;
+    margin-top: 20%;
+    margin-left: 25%;
   }
 
   .job_homepage {
