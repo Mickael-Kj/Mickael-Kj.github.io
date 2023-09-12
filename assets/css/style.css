@@ -465,13 +465,12 @@ a {
   border-radius: 5px;
   margin: 50px;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: stretch;
 }
-
 .img_montre {
   padding-top: 50px;
 }
