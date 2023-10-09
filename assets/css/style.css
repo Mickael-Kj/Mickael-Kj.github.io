@@ -471,6 +471,17 @@ a {
   align-items: center;
   align-content: stretch;
 }
+#all_card_path{
+  border-radius: 5px;
+  margin: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
 .img_montre {
   padding-top: 50px;
 }
@@ -490,6 +501,16 @@ a {
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  #all_card_path{
+    margin: 0;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column-reverse;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
