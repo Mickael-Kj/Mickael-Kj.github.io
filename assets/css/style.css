@@ -43,7 +43,7 @@ a {
 
 nav {
   z-index: 10;
-  background-color: rgba(117, 117, 117, 0.8);
+  background-color: rgba(117, 117, 117, 0.9);
   height: 7vh;
   display: flex;
   flex-direction: row;
@@ -160,13 +160,13 @@ header{
     display: none;
   }
   .homepage{
-    margin-top: 20%;
+    margin-top: 15%;
     margin-right: 0;
     margin-left: 0;
 
   }
   .img_homepage{
-    height: 65vh;
+    height: 60vh;
   }
   .name{
     align-items: center;
