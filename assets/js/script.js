@@ -7,7 +7,7 @@ $(document).ready(function(){
 // MODAL SKATE VIDEO
 
 // Get the modal
-var modal = document.getElementById("modal");
+var modal = document.getElementById("modal-skate");
 
 // Get the button that opens the modal
 let skate = document.getElementById("skate");

@@ -107,6 +107,9 @@ header{
   background-color: rgba(213, 202, 181, 0.4);
   margin-bottom: 5vh;
 }
+#modal-mobile{
+  display: none;
+}
 .menu_modal {
   display: none;
 }
@@ -580,6 +583,6 @@ li {
   cursor: pointer;
 }
 
-#modal {
+#modal-skate {
   display: none;
 }

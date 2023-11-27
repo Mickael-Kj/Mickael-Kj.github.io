@@ -50,7 +50,7 @@
     <div class="a_nav"><img id="burger" src="assets/img/menu_burger.png" alt="menu" height="30px"></div>
   </div>
 
-  <div id="modal">
+  <div id="modal-mobile">
     <nav class="nav_modal">
       <div id="nav_menu">
         <a href="#parcours">Parcours</a>
@@ -570,7 +570,7 @@
           <li class="row_li"><img src="assets/img/draw_skate.png" alt="skate" height="70px"><br>
             <p id="skate">Skateboard</p>
             <!-- Modal skateboard -->
-            <div id="modal">
+            <div id="modal-skate">
 
               <div class="modal-content">
                 <span class="close">&times;</span>
@@ -596,17 +596,17 @@
     // MODAL
 
     // Get the modal
-    var modal = document.getElementById("modal");
+    var modalMob = document.getElementById("modal-mobile");
 
     // Get the button that opens the modal
     let burger = document.getElementById("burger");
 
     // When the user clicks the button, open/close the modal 
     burger.onclick = function () {
-      if (modal.style.display === "none" || modal.style.display === "") {
-        modal.style.display = "block";
+      if (modalMob.style.display === "none" || modalMob.style.display === "") {
+        modalMob.style.display = "block";
       } else {
-        modal.style.display = "none";
+        modalMob.style.display = "none";
       }
     }
   </script>
