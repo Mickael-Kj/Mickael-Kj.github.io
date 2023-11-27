@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="assets/img/vase.png">
@@ -14,70 +15,88 @@
 </head>
 
 <body>
+  <nav>
+        <a href="#">Accueil</a>
+        <a href="#parcours">Parcours</a>
+        <a href="#compétences">Compétences</a>
+        <a href="#realisations">Réalisations</a>
+        <a href="#a_propos">À propos</a>
+        <div class="networks-menu">
+          <div>
+            <a class="a_nav" href="https://fr.linkedin.com/" target="_blank"><img class="icon_nav"
+                src="assets/img/linkedin.png" alt="linkedin" width="30px"></a>
+          </div>
+          <div>
+            <a class="a_nav net-link" href="https://github.com/Mickael-Kj" target="_blank"><img class="icon_nav"
+                src="assets/img/logo-github.png" alt="logo-github" width="30px"></a>
+          </div>
+          <div>
+            <a class="a_nav" href="mailto:mickael.kraj@gmail.com"><img class="icon_nav" src="assets/img/icon_mail.png"
+                alt="mail" height="30px"></a>
+          </div>
+        </div>
+  </nav>
+  <img class="boule boule-1" src="assets/img/boule.png" alt="boule">
+  <img class="boule boule-2" src="assets/img/boule.png" alt="boule">
+  <img class="boule boule-3" src="assets/img/boule.png" alt="boule">
+  <img class="boule boule-4" src="assets/img/boule.png" alt="boule">
+  <img class="boule boule-5" src="assets/img/boule.png" alt="boule">
+  
+  <header>
+    <div class="homepage">
+      
+      <div class="name">
+        <h1 class="firstname">Mickael KRAJ</h1>
+        <h2 class="dev-web">Développeur Web</h2>
+      </div>
 
-  <!------------- CLOCK ------------->
-  <div class="clock">
-    <div class="wrap">
-      <span class="heure"></span>
-      <span class="minute"></span>
-      <span class="seconde"></span>
-      <span class="dot"></span>
+
+    <div class="networks">
+      <div>
+        <a class="a_nav" href="https://fr.linkedin.com/" target="_blank"><img class="icon_nav"
+            src="assets/img/linkedin.png" alt="linkedin" width="50px"></a>
+      </div>
+      <div>
+        <a class="a_nav" href="https://github.com/Mickael-Kj" target="_blank"><img class="icon_nav"
+            src="assets/img/logo-github.png" alt="logo-github" width="50px"></a>
+      </div>
+      <div>
+        <a class="a_nav" href="mailto:mickael.kraj@gmail.com"><img class="icon_nav" src="assets/img/icon_mail.png"
+            alt="mail" height="50px"></a>
+      </div>
     </div>
+
   </div>
-  <!------------ ACCUEIL ------------->
 
-  <section class="conteneur">
-    <div class="nav_homepage">
+      <img class="img_homepage" src="assets/img/christmas.png" alt="christmas-tree">
 
-      <!------------ MENU ------------->
-      <nav class="menu">
-        <div id="nav-icon1">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <ul class="dropdown">
-          <li><a href="#">Accueil</a></li>
-          <li><a href="#parcours">Parcours</a></li>
-          <li><a href="#compétences">Compétences</a></li>
-          <li><a href="#realisations">Réalisations</a></li>
-          <li><a href="#a_propos">À propos</a></li>
-        </ul>
-      </nav>
+</header>
 
-      <!------------ Link ------------->
-      <section class="navbar">
-        <div>
-          <a class="a_nav" href="https://github.com/Mickael-Kj" target="_blank"><img class="icon_nav"
-              src="assets/img/logo-github.png" alt="github" width="40px"></a>
-        </div>
-        <div>
-          <a class="a_nav" href="mailto:mickael.kraj@gmail.com"><img class="icon_nav" src="assets/img/icon_mail.png"
-              alt="mail" height="40px"></a>
-        </div>
-        <div>
-          <a class="a_nav" href="https://fr.linkedin.com/" target="_blank"><img class="icon_nav"
-              src="assets/img/linkedin.png" alt="linkedin" width="40px"></a>
-        </div>
-      </section>
-    </div>
+<div class="menu_modal">
+  <a class="a_nav" href="https://fr.linkedin.com/" target="_blank"><img class="icon_nav"
+    src="assets/img/linkedin.png" alt="linkedin" width="30px"></a>
+    <a class="a_nav net-link" href="https://github.com/Mickael-Kj" target="_blank"><img class="icon_nav"
+      src="assets/img/logo-github.png" alt="logo-github" width="30px"></a>
+      <a class="a_nav" href="mailto:mickael.kraj@gmail.com"><img class="icon_nav" src="assets/img/icon_mail.png"
+        alt="mail" height="30px"></a>
+        <div class="a_nav"><img id="burger" src="assets/img/menu_burger.png" alt="menu" height="30px"></div>
+</div>
 
-    <div class="name_homepage">
-      <h1>Mickael</h1>
-      <hr class="hr1_accueil">
-      <h1>KRAJ</h1>
-    </div>
-    <div class="job_homepage">
-      <h2>Développeur</h2>
-      <hr class="hr2_accueil">
-      <h2 class="h2_web">Web</h2>
-    </div>
-    <div class="flower_homepage">
-      <img class="vase" src="assets/img/vase.png" alt="vase" height="400px">
-    </div>
-    <div></div>
-    <div></div>
-  </section>
+<div id="modal">
+  <nav class="nav_modal">
+      <div id="nav_menu">
+        <a href="#parcours">Parcours</a>
+        <a href="#compétences">Compétences</a>
+        <a href="#realisations">Réalisations</a>
+        <a href="#a_propos">À propos</a>
+      </div>
+      <a class="home-link" href="#"><img class="home-link"
+        src="assets/img/home_icon.png" alt="logo-home" width="40px"></a>
+  </nav>
+</div>
+
+
+
 
   <!------------- PARCOURS --------------->
 
@@ -528,7 +547,7 @@
             <p>06 23 17 76 45</p>
           </li>
           <hr>
-          <li class="row_li"><img src="assets/img/icon_mail.png" alt="home" height="70px"><br>
+          <li class="row_li"><img src="assets/img/icon_mail.png" alt="home" height="50px"><br>
             <p><a class="apropos_mail" href="mailto:mickael.kraj@gmail.com" target="_blank">mickael.kraj@gmail.com</a>
             </p>
           </li>
@@ -559,35 +578,31 @@
           </li>
           <hr>
           <li class="row_li"><img src="assets/img/book.png" alt="book" height="70px"><br>
-            <p id="phi">Philosophie</p>
-            <!-- Modal philosophie -->
-            <div id="modalP">
-
-              <div class="modalP-content">
-                <span class="closeP">&times;</span>
-                <div class="col_P">
-                  <img src="assets/img/emerson.jpg" alt="Emerson" width="100px" height="auto">
-                  <span>Emerson</span>
-                </div>
-                <div class="col_P">
-                  <img src="assets/img/nietzsche.jpg" alt="Nietzsche" width="100px" height="auto">
-                  <span>Nietzsche</span>
-                </div>
-                <div class="col_P">
-                  <img src="assets/img/schopenhauer.jpg" alt="Schopenhauer" width="100px" height="auto">
-                  <span>Schopenhauer</span>
-                </div>
-              </div>
-            </div>
+            <p>Philosophie</p>
           </li>
         </ul>
       </div>
     </div>
   </section>
-  <script src="assets/js/clock.js"></script>
+  <script>
+    // MODAL
+    
+    // Get the modal
+    var modal = document.getElementById("modal");
+    
+    // Get the button that opens the modal
+    let burger = document.getElementById("burger");
+    
+    // When the user clicks the button, open/close the modal 
+    burger.onclick = function() {
+    if (modal.style.display === "none" || modal.style.display === "") {
+      modal.style.display = "block";
+    } else {
+      modal.style.display = "none";
+    }
+    }
+    </script>
   <script src="assets/js/script.js"></script>
-  <script src="assets/js/nav.js"></script>
-  <script src="assets/js/onScroll.js"></script>
 
 </body>
 

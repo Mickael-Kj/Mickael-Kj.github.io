@@ -36,39 +36,3 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-
-
-// MODAL SKATE VIDEO
-
-
-// Get the modal
-var modalP = document.getElementById("modalP");
-
-// Get the button that opens the modal
-let phi = document.getElementById("phi");
-
-// Get the <span> element that closes the modal
-var spanP = document.getElementsByClassName("closeP")[0];
-
-// When the user clicks the button, open the modal 
-phi.onclick = function() {
-if (modalP.style.display == "none"){
-	modalP.style.display = "block";
-	}
-	else {
-	  modalP.style.display = "none";
-	}
-  }
-  
-
-// When the user clicks on <span> (x), close the modal
-spanP.onclick = function() {
-  modalP.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modalP) {
-    modalP.style.display = "none";
-  }
-}
