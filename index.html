@@ -7,7 +7,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Source+Code+Pro:wght@300&display=swap"
+    rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="assets/img/vase.png">
@@ -16,87 +17,90 @@
 
 <body>
   <nav>
-        <a href="#">Accueil</a>
-        <a href="#parcours">Parcours</a>
-        <a href="#compétences">Compétences</a>
-        <a href="#realisations">Réalisations</a>
-        <a href="#a_propos">À propos</a>
-        <div class="networks-menu">
-          <div>
-            <a class="a_nav" href="https://fr.linkedin.com/" target="_blank"><img class="icon_nav"
-                src="assets/img/linkedin.png" alt="linkedin" width="30px"></a>
-          </div>
-          <div>
-            <a class="a_nav net-link" href="https://github.com/Mickael-Kj" target="_blank"><img class="icon_nav"
-                src="assets/img/logo-github.png" alt="logo-github" width="30px"></a>
-          </div>
-          <div>
-            <a class="a_nav" href="mailto:mickael.kraj@gmail.com"><img class="icon_nav" src="assets/img/icon_mail.png"
-                alt="mail" height="30px"></a>
-          </div>
-        </div>
-  </nav>
-  <img class="boule boule-1" src="assets/img/boule.png" alt="boule">
-  <img class="boule boule-2" src="assets/img/boule.png" alt="boule">
-  <img class="boule boule-3" src="assets/img/boule.png" alt="boule">
-  <img class="boule boule-4" src="assets/img/boule.png" alt="boule">
-  <img class="boule boule-5" src="assets/img/boule.png" alt="boule">
-  
-  <header>
-    <div class="homepage">
-      
-      <div class="name">
-        <h1 class="firstname">Mickael KRAJ</h1>
-        <h2 class="dev-web">Développeur Web</h2>
-      </div>
-
-
-    <div class="networks">
+    <a href="#">Accueil</a>
+    <a href="#parcours">Parcours</a>
+    <a href="#compétences">Compétences</a>
+    <a href="#realisations">Réalisations</a>
+    <a href="#a_propos">À propos</a>
+    <div class="networks-menu">
       <div>
         <a class="a_nav" href="https://fr.linkedin.com/" target="_blank"><img class="icon_nav"
-            src="assets/img/linkedin.png" alt="linkedin" width="50px"></a>
+            src="assets/img/linkedin.png" alt="linkedin" width="30px"></a>
       </div>
       <div>
-        <a class="a_nav" href="https://github.com/Mickael-Kj" target="_blank"><img class="icon_nav"
-            src="assets/img/logo-github.png" alt="logo-github" width="50px"></a>
+        <a class="a_nav net-link" href="https://github.com/Mickael-Kj" target="_blank"><img class="icon_nav"
+            src="assets/img/logo-github.png" alt="logo-github" width="30px"></a>
       </div>
       <div>
         <a class="a_nav" href="mailto:mickael.kraj@gmail.com"><img class="icon_nav" src="assets/img/icon_mail.png"
-            alt="mail" height="50px"></a>
+            alt="mail" height="30px"></a>
       </div>
     </div>
+  </nav>
 
+  <!------------- MENU MOBILE --------------->
+
+  <div class="menu_modal">
+    <a class="a_nav" href="https://fr.linkedin.com/" target="_blank"><img class="icon_nav" src="assets/img/linkedin.png"
+        alt="linkedin" width="30px"></a>
+    <a class="a_nav net-link" href="https://github.com/Mickael-Kj" target="_blank"><img class="icon_nav"
+        src="assets/img/logo-github.png" alt="logo-github" width="30px"></a>
+    <a class="a_nav" href="mailto:mickael.kraj@gmail.com"><img class="icon_nav" src="assets/img/icon_mail.png"
+        alt="mail" height="30px"></a>
+    <div class="a_nav"><img id="burger" src="assets/img/menu_burger.png" alt="menu" height="30px"></div>
   </div>
 
-      <img class="img_homepage" src="assets/img/christmas.png" alt="christmas-tree">
-
-</header>
-
-<div class="menu_modal">
-  <a class="a_nav" href="https://fr.linkedin.com/" target="_blank"><img class="icon_nav"
-    src="assets/img/linkedin.png" alt="linkedin" width="30px"></a>
-    <a class="a_nav net-link" href="https://github.com/Mickael-Kj" target="_blank"><img class="icon_nav"
-      src="assets/img/logo-github.png" alt="logo-github" width="30px"></a>
-      <a class="a_nav" href="mailto:mickael.kraj@gmail.com"><img class="icon_nav" src="assets/img/icon_mail.png"
-        alt="mail" height="30px"></a>
-        <div class="a_nav"><img id="burger" src="assets/img/menu_burger.png" alt="menu" height="30px"></div>
-</div>
-
-<div id="modal">
-  <nav class="nav_modal">
+  <div id="modal">
+    <nav class="nav_modal">
       <div id="nav_menu">
         <a href="#parcours">Parcours</a>
         <a href="#compétences">Compétences</a>
         <a href="#realisations">Réalisations</a>
         <a href="#a_propos">À propos</a>
       </div>
-      <a class="home-link" href="#"><img class="home-link"
-        src="assets/img/home_icon.png" alt="logo-home" width="40px"></a>
-  </nav>
-</div>
+      <a class="home-link" href="#"><img class="home-link" src="assets/img/home_icon.png" alt="logo-home"
+          width="50px"></a>
+    </nav>
+  </div>
+
+  <!------------- CHRISTMAS BALLS --------------->
 
 
+  <img class="boule boule-1" src="assets/img/snow-ball.png" alt="boule-noël">
+  <img class="boule boule-2" src="assets/img/snow-ball.png" alt="boule-noël">
+  <img class="boule boule-3" src="assets/img/snow-ball.png" alt="boule-noël">
+  <img class="boule boule-4" src="assets/img/snow-ball.png" alt="boule-noël">
+  <img class="boule boule-5" src="assets/img/snow-ball.png" alt="boule-noël">
 
+  <header>
+    <div class="homepage">
+
+      <div class="name">
+        <h1 class="firstname">Mickael KRAJ</h1>
+        <h2 class="dev-web">Développeur Web</h2>
+      </div>
+
+
+      <div class="networks">
+        <div>
+          <a class="a_nav" href="https://fr.linkedin.com/" target="_blank"><img class="icon_nav"
+              src="assets/img/linkedin.png" alt="linkedin" width="50px"></a>
+        </div>
+        <div>
+          <a class="a_nav" href="https://github.com/Mickael-Kj" target="_blank"><img class="icon_nav"
+              src="assets/img/logo-github.png" alt="logo-github" width="50px"></a>
+        </div>
+        <div>
+          <a class="a_nav" href="mailto:mickael.kraj@gmail.com"><img class="icon_nav" src="assets/img/icon_mail.png"
+              alt="mail" height="50px"></a>
+        </div>
+      </div>
+
+    </div>
+
+    <img class="img_homepage" src="assets/img/christmas-tree.png" alt="christmas-tree">
+
+  </header>
 
   <!------------- PARCOURS --------------->
 
@@ -204,13 +208,17 @@
         <h3 class="h3_comp">Langages</h3>
         <div class="comp_div_content">
           <img class="img_comp" src="assets/img/html-logo.png" alt="html" height="40px">
-          <span class="span_comp_langages">HTML</span><img class="img_comp" src="assets/img/css-logo.png" alt="css"
+          <span class="span_comp_langages">HTML</span>
+          <img class="img_comp" src="assets/img/css-logo.png" alt="css"
             height="40px">
-          <span class="span_comp_langages">CSS</span><img class="img_comp" src="assets/img/js-logo.png" alt="javascript"
+          <span class="span_comp_langages">CSS</span>
+          <img class="img_comp" src="assets/img/js-logo.png" alt="javascript"
             height="40px">
-          <span class="span_comp_langages">Javascript</span><img class="img_comp" src="assets/img/php-logo.png" alt="php"
-            height="35px">
-          <span class="span_comp_langages">PHP</span><img class="img_comp" src="assets/img/sql-logo.png" alt="sql"
+          <span class="span_comp_langages">Javascript</span>
+          <img class="img_comp" src="assets/img/php-logo.png"
+            alt="php" height="35px">
+          <span class="span_comp_langages">PHP</span>
+          <img class="img_comp" src="assets/img/sql-logo.png" alt="sql"
             height="45px">
           <span class="span_comp_langages">SQL</span>
         </div>
@@ -219,16 +227,16 @@
       <div class="comp_div">
         <h3 class="h3_comp">Outils</h3>
         <div class="comp_div_content">
-          <img class="img_comp" src="assets/img/vscode.png" alt="vscode" height="40px"><span class="span_comp_outils">VS
-            code</span>
-          <img class="img_comp" src="assets/img/github.png" alt="github" height="40px"><span
-            class="span_comp_outils">Github</span>
-          <img class="img_comp" src="assets/img/lunacy.JPG" alt="lunacy" height="40px"><span
-            class="span_comp_outils">Lunacy</span>
-          <img class="img_comp" src="assets/img/afd2.png" alt="affinity_designer" height="40px"><span
-            class="span_comp_outils">Affinity Designer</span>
-          <img class="img_comp" src="assets/img/afp2.png" alt="affinity_photo" height="40px"><span
-            class="span_comp_outils">Affinity Photo</span>
+          <img class="img_comp" src="assets/img/vscode.png" alt="vscode" height="40px">
+          <span class="span_comp_outils">VS code</span>
+          <img class="img_comp" src="assets/img/github.png" alt="github" height="40px">
+          <span class="span_comp_outils">Github</span>
+          <img class="img_comp" src="assets/img/lunacy.JPG" alt="lunacy" height="40px">
+          <span class="span_comp_outils">Lunacy</span>
+          <img class="img_comp" src="assets/img/afd2.png" alt="affinity_designer" height="40px">
+          <span class="span_comp_outils">Affinity Designer</span>
+          <img class="img_comp" src="assets/img/afp2.png" alt="affinity_photo" height="40px">
+          <span class="span_comp_outils">Affinity Photo</span>
         </div>
 
       </div>
@@ -586,22 +594,22 @@
   </section>
   <script>
     // MODAL
-    
+
     // Get the modal
     var modal = document.getElementById("modal");
-    
+
     // Get the button that opens the modal
     let burger = document.getElementById("burger");
-    
+
     // When the user clicks the button, open/close the modal 
-    burger.onclick = function() {
-    if (modal.style.display === "none" || modal.style.display === "") {
-      modal.style.display = "block";
-    } else {
-      modal.style.display = "none";
+    burger.onclick = function () {
+      if (modal.style.display === "none" || modal.style.display === "") {
+        modal.style.display = "block";
+      } else {
+        modal.style.display = "none";
+      }
     }
-    }
-    </script>
+  </script>
   <script src="assets/js/script.js"></script>
 
 </body>
