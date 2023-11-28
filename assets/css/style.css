@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: rgb(117, 117, 117);
+  color: rgb(88, 88, 88);
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -42,7 +42,7 @@ a {
 
 nav {
   z-index: 10;
-  background-color: rgb(117, 117, 117);
+  background-color: rgb(88, 88, 88);
   height: 7vh;
   display: flex;
   flex-direction: row;
@@ -168,7 +168,7 @@ header{
 
   }
   .img_homepage{
-    height: 60vh;
+    height: 55vh;
   }
   .name{
     align-items: center;
@@ -201,14 +201,14 @@ h2 {
   bottom: 0;
   z-index: 120;
   position: fixed;
-  background-color: rgb(117, 117, 117);
+  background-color: rgb(88, 88, 88);
   padding-top: 3%;
   width: 100%;
   padding-bottom: 1%;
 }
 .nav_modal {
   position: fixed;
-  background-color: rgb(117, 117, 117);
+  background-color: rgb(88, 88, 88);
   height: 20vh;
   z-index: 120;
   display: flex;
@@ -235,7 +235,7 @@ h2 {
 }
 /********* PARCOURS - CARD ***************/
 .h2_parcours {
-  padding-top: 7vh;
+  padding-top: 8vh;
   text-align: center;
   margin-top: 100px;
 }
@@ -247,7 +247,7 @@ h2 {
 }
 
 .link_parcours>em:hover {
-  color: rgba(117, 117, 117, 0.4);
+  color: rgba(88, 88, 88, 0.4);
 }
 
 .text_card {
@@ -401,7 +401,7 @@ h2 {
 
 /********* COMPETENCES***************/
 .h2_compétences {
-  padding-top: 7vh;
+  padding-top: 8vh;
   text-align: center;
   margin-top: 100px;
   padding-bottom: 100px;
@@ -451,10 +451,12 @@ h2 {
 }
 
 .span_comp_langages {
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .span_comp_outils {
+  padding-top: 10px;
   padding-bottom: 20px;
 }
 
@@ -475,13 +477,9 @@ h2 {
 
 /******************* REALISATIONS ******************************/
 .h2_realisations {
-  padding-top: 7vh;
+  padding-top: 8vh;
   text-align: center;
-  margin-top: 200px;
-}
-
-#realisations {
-  margin-bottom: 200px;
+  margin-top: 100px;
 }
 
 .realisations_card {
@@ -516,11 +514,11 @@ li {
 
 .link_site:hover {
   opacity: 0.8;
-  color: rgba(117, 117, 117, 0.4);
+  color: rgba(88, 88, 88, 0.4);
 }
 @media all and (max-width: 700px) {
   .card_mobile_realisations{
-    height: 800px;
+    height: 850px;
   }
   .realisations_card{
     display: none;
@@ -534,7 +532,6 @@ li {
 /******************* A PROPOS ******************************/
 #a_propos {
   margin-bottom: 20px;
-  margin-top: 200px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap-reverse;
@@ -544,7 +541,7 @@ li {
 }
 
 .h2_apropos {
-  padding-top: 7vh;
+  padding-top: 8vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -565,10 +562,6 @@ li {
 @media all and (max-width: 700px) {
   .hr_apropos {
     display: none;
-  }
-
-  .h2_apropos {
-    margin-top: 50px;
   }
 }
 
