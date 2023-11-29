@@ -146,7 +146,7 @@
           <h3 class="date_bilan date_bilan_mobile2">2018 - 2022</h3>
           <hr><br>
           <p>Employé en horlogerie<br><br>
-            Senlis<br><br>
+            Senlis<br>
             <a class="link_mobile" href="https://www.joly-montres.fr/" target="_blank"><em>joly-montres.fr</em></a>
           </p>
         </div>
@@ -188,7 +188,7 @@
           <hr><br>
           <p>Formation développeur web<br>6 mois en présentiel<br>Titre professionnel d’Etat<br>«
             Développeur web et web mobile » <br>(RNCP 31114, Niveau 5, Bac+2).<br><br>Ecole numérique La
-            Manu<br><br>Compiègne<br><br>
+            Manu<br><br>Compiègne<br>
             <a class="link_mobile" href="https://lamanu.fr/formations/formation-developpeur-web-mobile/"
               target="_blank"><em>lamanu.fr</em></a>
           </p>
@@ -344,7 +344,7 @@
       <!-------- Chesspirit_mobile -------->
 
       <div class="card_mobile card_mobile_realisations">
-        <h3>Site d'échecs</h3>
+        <h3 class="t-card-mobile">Site d'échecs</h3>
         <img class="img_cv" src="assets/img/chesspiritcv.png" alt="Chesspirit" height="300px">
         <div class="text_card">
           <h3 class="date_realisation">Août-Octobre 2023</h3>
@@ -395,7 +395,7 @@
       <!-------- Flux RSS_mobile -------->
 
       <div class="card_mobile card_mobile_realisations">
-        <h3>Flux RSS</h3>
+        <h3 class="t-card-mobile">Flux RSS</h3>
         <img class="img_cv" src="assets/img/digiteye-project.png" alt="digiteye" height="300px">
         <div class="text_card">
           <h3 class="date_realisation">Juillet 2023</h3>
@@ -593,22 +593,46 @@
   </section>
   <script>
     // MODAL
-
+  
     // Get the modal
     var modalMob = document.getElementById("modal-mobile");
-
+  
     // Get the button that opens the modal
     let burger = document.getElementById("burger");
-
-    // When the user clicks the button, open/close the modal 
+  
+    // When the user clicks the button, open/close the modal
     burger.onclick = function () {
+      toggleModal();
+    }
+  
+    // Function to toggle modal display
+    function toggleModal() {
       if (modalMob.style.display === "none" || modalMob.style.display === "") {
         modalMob.style.display = "block";
       } else {
         modalMob.style.display = "none";
       }
     }
+  
+    // Get all the links in the modal
+    var modalLinks = modalMob.getElementsByTagName("a");
+  
+    // Loop through each link and add a click event listener
+    for (var i = 0; i < modalLinks.length; i++) {
+      modalLinks[i].addEventListener("click", function() {
+        // Close the modal when a link is clicked
+        modalMob.style.display = "none";
+      });
+    }
+  
+    // Close the modal when clicking anywhere on the document
+    window.addEventListener("click", function(event) {
+      if (event.target === modalMob) {
+        modalMob.style.display = "none";
+      }
+    });
   </script>
+  
   <script src="assets/js/script.js"></script>
 
 </body>

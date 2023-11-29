@@ -255,13 +255,16 @@ h2 {
   padding-top: 40px;
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 70px;
+  padding-bottom: 30px;
 }
 .text_card > p{
   font-size: 1.2rem;
 }
 .text_card > ul > li{
   font-size: 1.2rem;
+}
+.t-card-mobile{
+  margin-top: 10%;
 }
 
 .card {
@@ -578,6 +581,9 @@ li {
   justify-content: space-between;
   align-items: center;
   align-content: center;
+}
+.row_li p {
+  padding-top: 10px;
 }
 
 /******************* MODAL SKATE VIDEO ******************************/
