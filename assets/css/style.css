@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: rgb(88, 88, 88);
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -14,6 +13,7 @@ body {
   box-sizing: border-box;
   background-image: url(../img/texture.jpg);
   background-attachment: fixed;
+  color: rgb(88, 88, 88);
 }
 
 h1,
@@ -32,11 +32,14 @@ p {
 }
 
 a {
+  color: rgb(55, 207, 151);
   text-decoration: none;
 }
+a:hover{
+  opacity: 0.7;
+}
 
-.icon_nav:hover,
-.a_nav:hover {
+.icon_nav:hover {
   opacity: 0.8;
 }
 
@@ -61,6 +64,7 @@ nav > a{
   font-weight: bolder;
 }
 nav > a:hover{
+  opacity: 1;
   border-bottom: 4px solid #d5cab5;
 }
 header{
@@ -224,6 +228,7 @@ h2 {
 #nav_menu a{
   color: #d5cab5;
   font-size: 1.3rem;
+  padding-bottom: 10px;
   font-weight: 600;
 }
 .home-link{
@@ -244,10 +249,6 @@ h2 {
 }
 .date_bilan {
   font-size: 25px;
-}
-
-.link_parcours>em:hover {
-  color: rgba(88, 88, 88, 0.4);
 }
 
 .text_card {
@@ -299,7 +300,8 @@ h2 {
 
 .back {
   border-radius: 5px;
-  background: rgba(213, 202, 181, 0.4);
+  color: #d5cab5;
+  background: rgb(88, 88, 88);
   transform: rotateY(180deg);
 }
 
@@ -550,9 +552,11 @@ li {
   align-content: center;
   margin-bottom: 50px;
 }
-
+.apropos_mail {
+  color: rgb(88, 88, 88);
+}
 .apropos_mail:hover {
-  color: #d5cab5;
+  color: #37CF97;
 }
 
 .hr_apropos {
@@ -579,10 +583,17 @@ li {
 /******************* MODAL SKATE VIDEO ******************************/
 
 #skate:hover {
-  color: #d5cab5;
+  color: #37CF97;
   cursor: pointer;
 }
 
 #modal-skate {
   display: none;
+}
+.link_mobile, .link_react{
+  font-size: 1.2rem;
+  height: 100px;
+  width: 50px;
+  background-color: rgb(88, 88, 88);
+  color: #d5cab5;
 }
