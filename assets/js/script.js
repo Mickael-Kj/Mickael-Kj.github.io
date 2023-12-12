@@ -4,8 +4,6 @@ $(document).ready(function(){
 	});
 });
 
-// MODAL SKATE VIDEO
-
 // Get the modal
 var modal = document.getElementById("modal-skate");
 
@@ -15,13 +13,12 @@ let skate = document.getElementById("skate");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal 
+// When the user clicks the button, open or close the modal 
 skate.onclick = function() {
-  if (modal.style.display == "none"){
-  modal.style.display = "block";
-  }
-  else {
-	modal.style.display = "none";
+  if (modal.style.display !== "block") {
+    modal.style.display = "block";
+  } else {
+    modal.style.display = "none";
   }
 }
 
